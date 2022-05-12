@@ -11,6 +11,7 @@ const closeMenu = function () {
 };
 
 header_menu.addEventListener("click", function (e) {
+  console.log("clicked");
   if (menu_toggle.classList.contains("is-active")) {
     openMenu();
   } else {
