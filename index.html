@@ -789,8 +789,11 @@
 
   menu_toggle.addEventListener("click", function () {
     if (menu_toggle.classList.contains("is-active")) {
+      closeMenu();
+    } else {
       openMenu();
     }
   });
 </script>
+
 
