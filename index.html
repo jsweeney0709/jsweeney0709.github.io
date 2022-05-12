@@ -8,7 +8,7 @@
   <body>
     <header
       class="su__header--wrapper transparent__header scrolling"
-      style="background: rgb(160, 120, 255)"
+      style="background: rgb(160, 120, 255), height:3rem"
     >
       <div class="su__header">
         <div class="su__header--action">
@@ -787,9 +787,10 @@
     su_navigation_toggle.classList.remove("open");
   };
 
-  header_menu.addEventListener("click", function () {
+  menu_toggle.addEventListener("click", function () {
     if (menu_toggle.classList.contains("is-active")) {
       openMenu();
     }
   });
 </script>
+
