@@ -73,32 +73,15 @@
 
         <div class="su__header--menu menu-toggle-holder">
           <div class="menu-toggle-div">
-            <svg
-              width="40"
-              height="19"
-              viewBox="0 0 40 19"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M0 1.5C0 0.671573 0.671573 0 1.5 0H38.5C39.3284 0 40 0.671573 40 1.5C40 2.32843 39.3284 3 38.5 3H1.5C0.671574 3 0 2.32843 0 1.5Z"
-                fill="white"
-              ></path>
-              <path
-                d="M0 9.5C0 8.67157 0.671573 8 1.5 8H38.5C39.3284 8 40 8.67157 40 9.5C40 10.3284 39.3284 11 38.5 11H1.5C0.671574 11 0 10.3284 0 9.5Z"
-                fill="white"
-              ></path>
-              <path
-                d="M0 17.5C0 16.6716 0.671573 16 1.5 16H38.5C39.3284 16 40 16.6716 40 17.5C40 18.3284 39.3284 19 38.5 19H1.5C0.671574 19 0 18.3284 0 17.5Z"
-                fill="white"
-              ></path>
-            </svg>
+            <img
+              src="https://www.eversafe.com.sg/wp-content/uploads/2019/12/white-menu-icon-png-8.png"
+            />
           </div>
         </div>
       </div>
     </header>
     <div
-      class="su__navigation plugin--lazy"
+      class="su__navigation plugin--lazy navigation-toggle"
       data-bg="url(https://f0a63dc10f9b8e5602d2-918c4a94592cd7fa431dd71bf51b646a.ssl.cf3.rackcdn.com/navigation_bg.png)"
       data-was-processed="true"
       style="
@@ -150,11 +133,11 @@
           </div>
         </div>
 
-        <!--<div class="su__navigation_header--menu menu-toggle-holder">
+        <div class="su__navigation_header--menu menu-toggle-holder">
           <div class="menu-js-toggle">
             <i class="ai-close"></i>
           </div>
-        </div>-->
+        </div>
       </header>
 
       <nav class="su__navigation_menu">
@@ -792,22 +775,20 @@
   const header_menu = document.querySelector(".su__header--menu");
   const menu_toggle = document.querySelector(".menu-toggle-div");
   console.log(menu_toggle);
-  const su_navigation = document.querySelector(".su_navigation");
+  const su_navigation_toggle = document.querySelector(".su_navigation-toggle");
 
   const openMenu = function () {
     menu_toggle.classList.add("is-active");
-    su_navigation.classList.add("open");
+    su_navigation_toggle.classList.add("open");
   };
   const closeMenu = function () {
     menu_toggle.classList.remove("is-active");
-    su_navigation.classList.remove("open");
+    su_navigation_toggle.classList.remove("open");
   };
 
   header_menu.addEventListener("click", function () {
     if (menu_toggle.classList.contains("is-active")) {
       openMenu();
-    } else {
-      closeMenu();
     }
-  });
+  }
 </script>
