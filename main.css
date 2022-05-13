@@ -19583,6 +19583,353 @@ a.tag__button:hover {
   border-radius: 5px;
 }
 
+.theme__default-white--primary h1, .theme__default-white--primary h2, .theme__default-white--primary h3, .theme__default-white--primary h4, .theme__default-white--primary h5, .theme__default-white--primary h6,
+.t__def-wh--pri h1,
+.t__def-wh--pri h2,
+.t__def-wh--pri h3,
+.t__def-wh--pri h4,
+.t__def-wh--pri h5,
+.t__def-wh--pri h6 {
+  color: #ffffff;
+}
+.theme__default-white--primary a,
+.t__def-wh--pri a {
+  color: #ffffff;
+  border-color: #ffffff;
+  text-decoration: none;
+}
+.theme__default-white--primary a:hover,
+.t__def-wh--pri a:hover {
+  color: #ffffff;
+}
+.theme__default-white--primary a:hover h1, .theme__default-white--primary a:hover h2, .theme__default-white--primary a:hover h3, .theme__default-white--primary a:hover h4, .theme__default-white--primary a:hover h5, .theme__default-white--primary a:hover h6,
+.t__def-wh--pri a:hover h1,
+.t__def-wh--pri a:hover h2,
+.t__def-wh--pri a:hover h3,
+.t__def-wh--pri a:hover h4,
+.t__def-wh--pri a:hover h5,
+.t__def-wh--pri a:hover h6 {
+  color: #ffffff;
+}
+.theme__default-white--primary a div,
+.t__def-wh--pri a div {
+  border-color: #ffffff !important;
+}
+.theme__default-white--primary input,
+.t__def-wh--pri input {
+  border-color: #ffffff;
+}
+.theme__default-white--primary p,
+.t__def-wh--pri p {
+  color: #ffffff;
+}
+.theme__default-white--primary .button,
+.theme__default-white--primary .btn, .theme__default-white--primary.button, .theme__default-white--primary.btn,
+.t__def-wh--pri .button,
+.t__def-wh--pri .btn,
+.t__def-wh--pri.button,
+.t__def-wh--pri.btn {
+  border-color: #ffffff;
+}
+.theme__default-white--primary .button:hover,
+.theme__default-white--primary .btn:hover, .theme__default-white--primary.button:hover, .theme__default-white--primary.btn:hover,
+.t__def-wh--pri .button:hover,
+.t__def-wh--pri .btn:hover,
+.t__def-wh--pri.button:hover,
+.t__def-wh--pri.btn:hover {
+  color: #ffffff;
+  background: #ffffff;
+}
+.theme__default-white--primary .button:hover i,
+.theme__default-white--primary .btn:hover i, .theme__default-white--primary.button:hover i, .theme__default-white--primary.btn:hover i,
+.t__def-wh--pri .button:hover i,
+.t__def-wh--pri .btn:hover i,
+.t__def-wh--pri.button:hover i,
+.t__def-wh--pri.btn:hover i {
+  color: #ffffff;
+}
+.theme__default-white--primary .button__invert,
+.theme__default-white--primary .btn__invert, .theme__default-white--primary.button__invert, .theme__default-white--primary.btn__invert,
+.t__def-wh--pri .button__invert,
+.t__def-wh--pri .btn__invert,
+.t__def-wh--pri.button__invert,
+.t__def-wh--pri.btn__invert {
+  background-color: #ffffff;
+  color: #ffffff;
+}
+.theme__default-white--primary .button__invert h4,
+.theme__default-white--primary .btn__invert h4, .theme__default-white--primary.button__invert h4, .theme__default-white--primary.btn__invert h4,
+.t__def-wh--pri .button__invert h4,
+.t__def-wh--pri .btn__invert h4,
+.t__def-wh--pri.button__invert h4,
+.t__def-wh--pri.btn__invert h4 {
+  color: #ffffff;
+}
+.theme__default-white--primary .button__invert:hover,
+.theme__default-white--primary .btn__invert:hover, .theme__default-white--primary.button__invert:hover, .theme__default-white--primary.btn__invert:hover,
+.t__def-wh--pri .button__invert:hover,
+.t__def-wh--pri .btn__invert:hover,
+.t__def-wh--pri.button__invert:hover,
+.t__def-wh--pri.btn__invert:hover {
+  opacity: 0.8;
+}
+.theme__default-white--primary .button__invert:hover h4,
+.theme__default-white--primary .btn__invert:hover h4, .theme__default-white--primary.button__invert:hover h4, .theme__default-white--primary.btn__invert:hover h4,
+.t__def-wh--pri .button__invert:hover h4,
+.t__def-wh--pri .btn__invert:hover h4,
+.t__def-wh--pri.button__invert:hover h4,
+.t__def-wh--pri.btn__invert:hover h4 {
+  color: #ffffff;
+}
+.theme__default-white--primary .button__invert--hover:hover,
+.theme__default-white--primary .btn__invert--hover:hover, .theme__default-white--primary.button__invert--hover:hover, .theme__default-white--primary.btn__invert--hover:hover,
+.t__def-wh--pri .button__invert--hover:hover,
+.t__def-wh--pri .btn__invert--hover:hover,
+.t__def-wh--pri.button__invert--hover:hover,
+.t__def-wh--pri.btn__invert--hover:hover {
+  background-color: #ffffff;
+  color: #ffffff;
+  opacity: 0.8;
+}
+.theme__default-white--primary .button__under,
+.theme__default-white--primary .btn__under, .theme__default-white--primary.button__under, .theme__default-white--primary.btn__under,
+.t__def-wh--pri .button__under,
+.t__def-wh--pri .btn__under,
+.t__def-wh--pri.button__under,
+.t__def-wh--pri.btn__under {
+  border-color: #ffffff;
+}
+.theme__default-white--primary .btn__large,
+.t__def-wh--pri .btn__large {
+  background-color: #ffffff;
+}
+.theme__default-white--primary .input__search,
+.t__def-wh--pri .input__search {
+  border-color: #ffffff;
+}
+.theme__default-white--primary .input__search i,
+.t__def-wh--pri .input__search i {
+  color: #ffffff;
+}
+.theme__default-white--primary .input__search:hover i,
+.t__def-wh--pri .input__search:hover i {
+  color: #ffffff;
+}
+.theme__default-white--primary .component__foreground,
+.t__def-wh--pri .component__foreground {
+  color: #ffffff;
+}
+.theme__default-white--primary.card,
+.theme__default-white--primary .card, .theme__default-white--primary.card__with-image,
+.theme__default-white--primary .card__with-image,
+.t__def-wh--pri.card,
+.t__def-wh--pri .card,
+.t__def-wh--pri.card__with-image,
+.t__def-wh--pri .card__with-image {
+  border-color: #ffffff;
+}
+.theme__default-white--primary.card__highlight,
+.theme__default-white--primary .card__highlight,
+.theme__default-white--primary .card__highlight--image,
+.theme__default-white--primary .card__highlight--final,
+.t__def-wh--pri.card__highlight,
+.t__def-wh--pri .card__highlight,
+.t__def-wh--pri .card__highlight--image,
+.t__def-wh--pri .card__highlight--final {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+.theme__default-white--primary.card__highlight--title,
+.theme__default-white--primary .card__highlight--title,
+.theme__default-white--primary .card__highlight--image,
+.theme__default-white--primary .card__highlight--final,
+.t__def-wh--pri.card__highlight--title,
+.t__def-wh--pri .card__highlight--title,
+.t__def-wh--pri .card__highlight--image,
+.t__def-wh--pri .card__highlight--final {
+  color: #ffffff;
+}
+.theme__default-white--primary .image-slider__selector--dot,
+.t__def-wh--pri .image-slider__selector--dot {
+  background-color: #ffffff;
+}
+.theme__default-white--primary .call-to-action__text h3,
+.t__def-wh--pri .call-to-action__text h3 {
+  color: #ffffff;
+}
+.theme__default-white--primary .officer__block--title h5, .theme__default-white--primary .officer__block--title h6,
+.t__def-wh--pri .officer__block--title h5,
+.t__def-wh--pri .officer__block--title h6 {
+  color: #ffffff;
+}
+.theme__default-white--primary .block__statement--link,
+.t__def-wh--pri .block__statement--link {
+  color: #ffffff;
+}
+.theme__default-white--primary .slider__campaign--selector.active .slider__campaign--selector-dot,
+.t__def-wh--pri .slider__campaign--selector.active .slider__campaign--selector-dot {
+  background-color: #ffffff;
+}
+.theme__default-white--primary .dropdown__toggle--title,
+.t__def-wh--pri .dropdown__toggle--title {
+  color: #ffffff;
+}
+.theme__default-white--primary .dropdown__toggle--icon i,
+.t__def-wh--pri .dropdown__toggle--icon i {
+  color: #ffffff;
+}
+.theme__default-white--primary .large_timer__countdown--item_large,
+.t__def-wh--pri .large_timer__countdown--item_large {
+  background-color: #ffffff;
+}
+.theme__default-white--primary .large_timer__countdown--item_medium,
+.t__def-wh--pri .large_timer__countdown--item_medium {
+  background-color: #ffffff;
+}
+.theme__default-white--primary .large_timer__countdown--item_small,
+.t__def-wh--pri .large_timer__countdown--item_small {
+  background-color: #ffffff;
+}
+.theme__default-white--primary .modalcontent,
+.t__def-wh--pri .modalcontent {
+  border-color: #ffffff;
+}
+.theme__default-white--primary .transparent__header,
+.t__def-wh--pri .transparent__header {
+  background: #ffffff;
+}
+.theme__default-white--primary .breadcrumb__slashes,
+.t__def-wh--pri .breadcrumb__slashes {
+  color: #ffffff;
+}
+.theme__default-white--primary .the-list,
+.t__def-wh--pri .the-list {
+  background-color: #ffffff;
+}
+.theme__default-white--primary .the-list option,
+.t__def-wh--pri .the-list option {
+  border-color: #ffffff !important;
+}
+.theme__default-white--primary .es-list::-webkit-scrollbar-thumb,
+.t__def-wh--pri .es-list::-webkit-scrollbar-thumb {
+  background: #ffffff;
+}
+.theme__default-white--primary .es-visible,
+.t__def-wh--pri .es-visible {
+  border-color: #ffffff !important;
+}
+.theme__default-white--primary .ot-open,
+.theme__default-white--primary .ot-closed,
+.t__def-wh--pri .ot-open,
+.t__def-wh--pri .ot-closed {
+  color: #ffffff;
+}
+.theme__default-white--primary .colour__foreground,
+.t__def-wh--pri .colour__foreground {
+  color: #ffffff;
+}
+.theme__default-white--primary h1.t__none,
+.theme__default-white--primary h1.theme__none,
+.theme__default-white--primary h2.t__none,
+.theme__default-white--primary h2.theme__none,
+.theme__default-white--primary h3.t__none,
+.theme__default-white--primary h3.theme__none,
+.theme__default-white--primary h4.t__none,
+.theme__default-white--primary h4.theme__none,
+.theme__default-white--primary h1.t__none--w-hov,
+.theme__default-white--primary h1.theme__none--with-hover,
+.theme__default-white--primary h2.t__none--w-hov,
+.theme__default-white--primary h2.theme__none--with-hover,
+.theme__default-white--primary h3.t__none--w-hov,
+.theme__default-white--primary h3.theme__none--with-hover,
+.theme__default-white--primary h4.t__none--w-hov,
+.theme__default-white--primary h4.theme__none--with-hover,
+.t__def-wh--pri h1.t__none,
+.t__def-wh--pri h1.theme__none,
+.t__def-wh--pri h2.t__none,
+.t__def-wh--pri h2.theme__none,
+.t__def-wh--pri h3.t__none,
+.t__def-wh--pri h3.theme__none,
+.t__def-wh--pri h4.t__none,
+.t__def-wh--pri h4.theme__none,
+.t__def-wh--pri h1.t__none--w-hov,
+.t__def-wh--pri h1.theme__none--with-hover,
+.t__def-wh--pri h2.t__none--w-hov,
+.t__def-wh--pri h2.theme__none--with-hover,
+.t__def-wh--pri h3.t__none--w-hov,
+.t__def-wh--pri h3.theme__none--with-hover,
+.t__def-wh--pri h4.t__none--w-hov,
+.t__def-wh--pri h4.theme__none--with-hover {
+  color: #ffffff;
+}
+.theme__default-white--primary span.t__none,
+.theme__default-white--primary span.theme__none,
+.t__def-wh--pri span.t__none,
+.t__def-wh--pri span.theme__none {
+  color: #ffffff;
+}
+.theme__default-white--primary i.t__none,
+.theme__default-white--primary i.theme__none,
+.t__def-wh--pri i.t__none,
+.t__def-wh--pri i.theme__none {
+  color: #ffffff;
+}
+.theme__default-white--primary a.border__none,
+.theme__default-white--primary a.b__none,
+.t__def-wh--pri a.border__none,
+.t__def-wh--pri a.b__none {
+  border: 0;
+}
+.theme__default-white--primary a:hover h1.t__none,
+.theme__default-white--primary a:hover h1.theme__none,
+.theme__default-white--primary a:hover h2.t__none,
+.theme__default-white--primary a:hover h2.theme__none,
+.theme__default-white--primary a:hover h3.t__none,
+.theme__default-white--primary a:hover h3.theme__none,
+.theme__default-white--primary a:hover h4.t__none,
+.theme__default-white--primary a:hover h4.theme__none,
+.t__def-wh--pri a:hover h1.t__none,
+.t__def-wh--pri a:hover h1.theme__none,
+.t__def-wh--pri a:hover h2.t__none,
+.t__def-wh--pri a:hover h2.theme__none,
+.t__def-wh--pri a:hover h3.t__none,
+.t__def-wh--pri a:hover h3.theme__none,
+.t__def-wh--pri a:hover h4.t__none,
+.t__def-wh--pri a:hover h4.theme__none {
+  color: #ffffff;
+}
+.theme__default-white--primary a:hover h1.t__none--w-hov,
+.theme__default-white--primary a:hover h1.theme__none--with-hover,
+.theme__default-white--primary a:hover h2.t__none--w-hov,
+.theme__default-white--primary a:hover h2.theme__none--with-hover,
+.theme__default-white--primary a:hover h3.t__none--w-hov,
+.theme__default-white--primary a:hover h3.theme__none--with-hover,
+.theme__default-white--primary a:hover h4.t__none--w-hov,
+.theme__default-white--primary a:hover h4.theme__none--with-hover,
+.t__def-wh--pri a:hover h1.t__none--w-hov,
+.t__def-wh--pri a:hover h1.theme__none--with-hover,
+.t__def-wh--pri a:hover h2.t__none--w-hov,
+.t__def-wh--pri a:hover h2.theme__none--with-hover,
+.t__def-wh--pri a:hover h3.t__none--w-hov,
+.t__def-wh--pri a:hover h3.theme__none--with-hover,
+.t__def-wh--pri a:hover h4.t__none--w-hov,
+.t__def-wh--pri a:hover h4.theme__none--with-hover {
+  color: #ffffff;
+}
+.theme__default-white--primary .dotted__line--small, .theme__default-white--primary .dotted__line--medium, .theme__default-white--primary .dotted__line--large, .theme__default-white--primary .dotted__line--x-large, .theme__default-white--primary .dotted__line--huge,
+.t__def-wh--pri .dotted__line--small,
+.t__def-wh--pri .dotted__line--medium,
+.t__def-wh--pri .dotted__line--large,
+.t__def-wh--pri .dotted__line--x-large,
+.t__def-wh--pri .dotted__line--huge {
+  border-image-source: url("https://fe3ca8e0a2f497a00e8a-853d39369c554c336474f22b1382bbe4.ssl.cf3.rackcdn.com/dotted_def-white.png");
+}
+
+.theme__default-white--background-primary,
+.t__def-wh--bg-pri {
+  background-color: #ffffff;
+}
+
 .theme__societies--primary h1,
 .theme__societies--primary h2,
 .theme__societies--primary h3,
