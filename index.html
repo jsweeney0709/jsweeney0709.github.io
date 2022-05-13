@@ -776,26 +776,25 @@
   "use strict";
 
   const header_menu = document.querySelector(".su__header--menu");
-  const menu_toggle = document.querySelector(".menu-toggle-div");
+  const menu_open_toggle = document.querySelector(".menu-toggle-div");
+  const menu_close_toggle = document.querySelector(".menu-js-toggle");
   const su_navigation_toggle = document.querySelector(".navigation-toggle");
 
   const openMenu = function () {
-    menu_toggle.classList.add("is-active");
+    menu_open_toggle.classList.add("is-active");
     su_navigation_toggle.classList.add("open");
   };
   const closeMenu = function () {
-    menu_toggle.classList.remove("is-active");
+    menu_open_toggle.classList.remove("is-active");
     su_navigation_toggle.classList.remove("open");
   };
 
-  menu_toggle.addEventListener("click", function () {
-    console.log(su_navigation_toggle.classList);
-    if (su_navigation_toggle.classList.contains("open")) {
-      console.log("close");
-      closeMenu();
-    } else {
-      openMenu();
-      console.log(su_navigation_toggle);
-    }
+  menu_open_toggle.addEventListener("click", function () {
+    openMenu();
+  });
+
+  menu_close_toggle.addEventListener("click", function () {
+    closeMenu();
   });
 </script>
+
