@@ -4124,18 +4124,18 @@ footer .footer__univ a:hover {
   border-bottom: 0;
 }
 
-.su__body {
+.body {
   max-width: 1200px;
   width: 100%;
   margin: auto;
 }
 @media (max-width: 1199px) {
-  .su__body {
+  .body {
     padding: 0 1rem;
   }
 }
 @media (max-width: 1199px) {
-  .su__body--offset {
+  .body--offset {
     margin-top: -120px;
   }
 }
@@ -21109,3 +21109,4 @@ a.tag__button:hover {
 .t__soc--bg-pas {
   background-color: rgba(190, 150, 255, 0.1);
 }
+
