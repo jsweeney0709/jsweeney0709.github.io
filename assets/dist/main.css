@@ -4906,6 +4906,17 @@ table td {
     padding: 5rem calc((100% / 14) + 2rem);
   }
 }
+.page__background--wrapper {
+  margin-left: 0;
+  margin-right: calc(50% - 50vw);
+  padding: 7rem 0;
+}
+@media (min-width: 1199px) {
+  .page__background--wrapper {
+    margin-right: calc(49% - 50vw);
+    padding: 5rem calc((100% / 14) + 2rem);
+  }
+}
 .homepage__chapter {
   margin-bottom: 7rem;
 }
@@ -19583,7 +19594,12 @@ a.tag__button:hover {
   border-radius: 5px;
 }
 
-.theme__default-white--primary h1, .theme__default-white--primary h2, .theme__default-white--primary h3, .theme__default-white--primary h4, .theme__default-white--primary h5, .theme__default-white--primary h6,
+.theme__default-white--primary h1,
+.theme__default-white--primary h2,
+.theme__default-white--primary h3,
+.theme__default-white--primary h4,
+.theme__default-white--primary h5,
+.theme__default-white--primary h6,
 .t__def-wh--pri h1,
 .t__def-wh--pri h2,
 .t__def-wh--pri h3,
@@ -19602,7 +19618,12 @@ a.tag__button:hover {
 .t__def-wh--pri a:hover {
   color: #ffffff;
 }
-.theme__default-white--primary a:hover h1, .theme__default-white--primary a:hover h2, .theme__default-white--primary a:hover h3, .theme__default-white--primary a:hover h4, .theme__default-white--primary a:hover h5, .theme__default-white--primary a:hover h6,
+.theme__default-white--primary a:hover h1,
+.theme__default-white--primary a:hover h2,
+.theme__default-white--primary a:hover h3,
+.theme__default-white--primary a:hover h4,
+.theme__default-white--primary a:hover h5,
+.theme__default-white--primary a:hover h6,
 .t__def-wh--pri a:hover h1,
 .t__def-wh--pri a:hover h2,
 .t__def-wh--pri a:hover h3,
@@ -19624,7 +19645,9 @@ a.tag__button:hover {
   color: #ffffff;
 }
 .theme__default-white--primary .button,
-.theme__default-white--primary .btn, .theme__default-white--primary.button, .theme__default-white--primary.btn,
+.theme__default-white--primary .btn,
+.theme__default-white--primary.button,
+.theme__default-white--primary.btn,
 .t__def-wh--pri .button,
 .t__def-wh--pri .btn,
 .t__def-wh--pri.button,
@@ -19632,7 +19655,9 @@ a.tag__button:hover {
   border-color: #ffffff;
 }
 .theme__default-white--primary .button:hover,
-.theme__default-white--primary .btn:hover, .theme__default-white--primary.button:hover, .theme__default-white--primary.btn:hover,
+.theme__default-white--primary .btn:hover,
+.theme__default-white--primary.button:hover,
+.theme__default-white--primary.btn:hover,
 .t__def-wh--pri .button:hover,
 .t__def-wh--pri .btn:hover,
 .t__def-wh--pri.button:hover,
@@ -19641,7 +19666,9 @@ a.tag__button:hover {
   background: #ffffff;
 }
 .theme__default-white--primary .button:hover i,
-.theme__default-white--primary .btn:hover i, .theme__default-white--primary.button:hover i, .theme__default-white--primary.btn:hover i,
+.theme__default-white--primary .btn:hover i,
+.theme__default-white--primary.button:hover i,
+.theme__default-white--primary.btn:hover i,
 .t__def-wh--pri .button:hover i,
 .t__def-wh--pri .btn:hover i,
 .t__def-wh--pri.button:hover i,
@@ -19649,7 +19676,9 @@ a.tag__button:hover {
   color: #ffffff;
 }
 .theme__default-white--primary .button__invert,
-.theme__default-white--primary .btn__invert, .theme__default-white--primary.button__invert, .theme__default-white--primary.btn__invert,
+.theme__default-white--primary .btn__invert,
+.theme__default-white--primary.button__invert,
+.theme__default-white--primary.btn__invert,
 .t__def-wh--pri .button__invert,
 .t__def-wh--pri .btn__invert,
 .t__def-wh--pri.button__invert,
@@ -19658,7 +19687,9 @@ a.tag__button:hover {
   color: #ffffff;
 }
 .theme__default-white--primary .button__invert h4,
-.theme__default-white--primary .btn__invert h4, .theme__default-white--primary.button__invert h4, .theme__default-white--primary.btn__invert h4,
+.theme__default-white--primary .btn__invert h4,
+.theme__default-white--primary.button__invert h4,
+.theme__default-white--primary.btn__invert h4,
 .t__def-wh--pri .button__invert h4,
 .t__def-wh--pri .btn__invert h4,
 .t__def-wh--pri.button__invert h4,
@@ -19666,7 +19697,9 @@ a.tag__button:hover {
   color: #ffffff;
 }
 .theme__default-white--primary .button__invert:hover,
-.theme__default-white--primary .btn__invert:hover, .theme__default-white--primary.button__invert:hover, .theme__default-white--primary.btn__invert:hover,
+.theme__default-white--primary .btn__invert:hover,
+.theme__default-white--primary.button__invert:hover,
+.theme__default-white--primary.btn__invert:hover,
 .t__def-wh--pri .button__invert:hover,
 .t__def-wh--pri .btn__invert:hover,
 .t__def-wh--pri.button__invert:hover,
@@ -19674,7 +19707,9 @@ a.tag__button:hover {
   opacity: 0.8;
 }
 .theme__default-white--primary .button__invert:hover h4,
-.theme__default-white--primary .btn__invert:hover h4, .theme__default-white--primary.button__invert:hover h4, .theme__default-white--primary.btn__invert:hover h4,
+.theme__default-white--primary .btn__invert:hover h4,
+.theme__default-white--primary.button__invert:hover h4,
+.theme__default-white--primary.btn__invert:hover h4,
 .t__def-wh--pri .button__invert:hover h4,
 .t__def-wh--pri .btn__invert:hover h4,
 .t__def-wh--pri.button__invert:hover h4,
@@ -19682,7 +19717,9 @@ a.tag__button:hover {
   color: #ffffff;
 }
 .theme__default-white--primary .button__invert--hover:hover,
-.theme__default-white--primary .btn__invert--hover:hover, .theme__default-white--primary.button__invert--hover:hover, .theme__default-white--primary.btn__invert--hover:hover,
+.theme__default-white--primary .btn__invert--hover:hover,
+.theme__default-white--primary.button__invert--hover:hover,
+.theme__default-white--primary.btn__invert--hover:hover,
 .t__def-wh--pri .button__invert--hover:hover,
 .t__def-wh--pri .btn__invert--hover:hover,
 .t__def-wh--pri.button__invert--hover:hover,
@@ -19692,7 +19729,9 @@ a.tag__button:hover {
   opacity: 0.8;
 }
 .theme__default-white--primary .button__under,
-.theme__default-white--primary .btn__under, .theme__default-white--primary.button__under, .theme__default-white--primary.btn__under,
+.theme__default-white--primary .btn__under,
+.theme__default-white--primary.button__under,
+.theme__default-white--primary.btn__under,
 .t__def-wh--pri .button__under,
 .t__def-wh--pri .btn__under,
 .t__def-wh--pri.button__under,
@@ -19720,7 +19759,8 @@ a.tag__button:hover {
   color: #ffffff;
 }
 .theme__default-white--primary.card,
-.theme__default-white--primary .card, .theme__default-white--primary.card__with-image,
+.theme__default-white--primary .card,
+.theme__default-white--primary.card__with-image,
 .theme__default-white--primary .card__with-image,
 .t__def-wh--pri.card,
 .t__def-wh--pri .card,
@@ -19757,7 +19797,8 @@ a.tag__button:hover {
 .t__def-wh--pri .call-to-action__text h3 {
   color: #ffffff;
 }
-.theme__default-white--primary .officer__block--title h5, .theme__default-white--primary .officer__block--title h6,
+.theme__default-white--primary .officer__block--title h5,
+.theme__default-white--primary .officer__block--title h6,
 .t__def-wh--pri .officer__block--title h5,
 .t__def-wh--pri .officer__block--title h6 {
   color: #ffffff;
@@ -19766,8 +19807,12 @@ a.tag__button:hover {
 .t__def-wh--pri .block__statement--link {
   color: #ffffff;
 }
-.theme__default-white--primary .slider__campaign--selector.active .slider__campaign--selector-dot,
-.t__def-wh--pri .slider__campaign--selector.active .slider__campaign--selector-dot {
+.theme__default-white--primary
+  .slider__campaign--selector.active
+  .slider__campaign--selector-dot,
+.t__def-wh--pri
+  .slider__campaign--selector.active
+  .slider__campaign--selector-dot {
   background-color: #ffffff;
 }
 .theme__default-white--primary .dropdown__toggle--title,
@@ -19916,7 +19961,11 @@ a.tag__button:hover {
 .t__def-wh--pri a:hover h4.theme__none--with-hover {
   color: #ffffff;
 }
-.theme__default-white--primary .dotted__line--small, .theme__default-white--primary .dotted__line--medium, .theme__default-white--primary .dotted__line--large, .theme__default-white--primary .dotted__line--x-large, .theme__default-white--primary .dotted__line--huge,
+.theme__default-white--primary .dotted__line--small,
+.theme__default-white--primary .dotted__line--medium,
+.theme__default-white--primary .dotted__line--large,
+.theme__default-white--primary .dotted__line--x-large,
+.theme__default-white--primary .dotted__line--huge,
 .t__def-wh--pri .dotted__line--small,
 .t__def-wh--pri .dotted__line--medium,
 .t__def-wh--pri .dotted__line--large,
