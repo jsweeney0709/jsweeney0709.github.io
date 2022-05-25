@@ -159,20 +159,40 @@
                 </p>
                 <form
                   action="mailto:gabriel@expressparscore.co.uk"
-                  method="POST"
-                  enctype="multipart/form-data"
-                  name="EmailForm"
+                  enctype="text/plain"
+                  method="post"
                 >
-                  <p style="color: white">Name:</p>
-                  <br />
-                  <input type="text" size="30" name="ContactName" /><br />
-                  <p style="color: white">Message:</p>
-                  <br />
-                  <textarea name="ContactCommentt" rows="6" cols="32"></textarea
-                  ><br /><br />
-                  <button class="btn" type="submit" value="Submit">
-                    Submit
-                  </button>
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Name"
+                    class="name mgn__b--1"
+                    required
+                  />
+                  <input
+                    type="email"
+                    name="emailaddress"
+                    placeholder="Email"
+                    class="email mgn__b--1"
+                    type="email"
+                    required
+                  />
+                  <textarea
+                    type="text"
+                    rows="4"
+                    cols="23"
+                    name="Message"
+                    placeholder="Message"
+                    class="message mgn__b--1"
+                    required
+                  ></textarea
+                  ><br />
+                  <input
+                    name="submit"
+                    class="btn"
+                    type="submit"
+                    value="Submit"
+                  />
                 </form>
               </div>
             </div>
