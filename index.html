@@ -85,6 +85,37 @@
                 </p>
                 <form
                   action="mailto:gabriel@expressparscore.co.uk"
+                  enctype="text/plain"
+                  method="post"
+                >
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Name"
+                    class="name"
+                    required
+                  />
+                  <input
+                    type="email"
+                    name="emailaddress"
+                    placeholder="Email"
+                    class="email"
+                    type="email"
+                    required
+                  />
+                  <textarea
+                    type="text"
+                    rows="4"
+                    name="Message"
+                    placeholder="Message"
+                    class="message"
+                    required
+                  ></textarea>
+                  <button class="res" type="reset" value="Reset">Reset</button>
+                  <input name="submit" class="btn" type="submit" value="»" />
+                </form>
+                <!--<form
+                  action="mailto:gabriel@expressparscore.co.uk"
                   method="POST"
                   enctype="multipart/form-data"
                   name="EmailForm"
@@ -99,7 +130,7 @@
                   <button class="btn" type="submit" value="Submit">
                     Submit
                   </button>
-                </form>
+                </form>--->
               </div>
             </div>
           </div>
