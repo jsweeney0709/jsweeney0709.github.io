@@ -1524,24 +1524,13 @@ table td {
     padding: 5rem calc((100% / 14) + 2rem);
   }
 }
-.page__background--wrapper-right {
+.page__background--wrapper {
   margin-left: 0;
   margin-right: calc(50% - 50vw);
   padding: 7rem 0;
 }
 @media (min-width: 1199px) {
-  .page__background--wrapper-right {
-    margin-right: calc(49% - 50vw);
-    padding: 5rem calc((100% / 14) + 2rem);
-  }
-}
-.page__background--wrapper-left {
-  margin-left: calc(50% - 50vw);
-  margin-right: 0;
-  padding: 7rem 0;
-}
-@media (min-width: 1199px) {
-  .page__background--wrapper-left {
+  .page__background--wrapper {
     margin-right: calc(49% - 50vw);
     padding: 5rem calc((100% / 14) + 2rem);
   }
