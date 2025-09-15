@@ -2,6 +2,6 @@ User-agent: Googlebot
 Disallow: /nogooglebot/
 
 User-agent: *
-Allow: /
+Disallow:
 
 Sitemap: http://expressparscore.co.uk/sitemap.xml
