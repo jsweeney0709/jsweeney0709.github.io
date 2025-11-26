@@ -1456,16 +1456,16 @@ footer .footer__address span {
 }
 
 .body {
-  max-width: 1200px;
+  max-width: 1800px;
   width: 100%;
   margin: auto;
 }
-@media (max-width: 1199px) {
+@media (max-width: 1799px) {
   .body {
     padding: 0 1rem;
   }
 }
-@media (max-width: 1199px) {
+@media (max-width: 1799px) {
   .body--offset {
     margin-top: -120px;
   }
@@ -8015,3 +8015,4 @@ a.tag__button:hover {
 .t__soc--bg-pas {
   background-color: rgba(190, 150, 255, 0.1);
 }
+
